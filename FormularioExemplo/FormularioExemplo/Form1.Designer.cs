@@ -262,6 +262,7 @@ namespace FormularioExemplo
             this.btnSair.TabIndex = 5;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // label4
             // 
@@ -280,6 +281,7 @@ namespace FormularioExemplo
             this.btnInserirPlanilha.TabIndex = 0;
             this.btnInserirPlanilha.Text = "Enviar Valor";
             this.btnInserirPlanilha.UseVisualStyleBackColor = true;
+            this.btnInserirPlanilha.Click += new System.EventHandler(this.btnInserirPlanilha_Click);
             // 
             // btnIVerificarAtualizar
             // 
@@ -289,6 +291,7 @@ namespace FormularioExemplo
             this.btnIVerificarAtualizar.TabIndex = 4;
             this.btnIVerificarAtualizar.Text = "Verificar Atualização";
             this.btnIVerificarAtualizar.UseVisualStyleBackColor = true;
+            this.btnIVerificarAtualizar.Click += new System.EventHandler(this.btnIVerificarAtualizar_Click);
             // 
             // panel5
             // 
@@ -296,7 +299,7 @@ namespace FormularioExemplo
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel5.Controls.Add(this.nupIntemperismo);
             this.panel5.Controls.Add(this.label5);
-            this.panel5.Location = new System.Drawing.Point(556, 3);
+            this.panel5.Location = new System.Drawing.Point(555, 3);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(260, 77);
             this.panel5.TabIndex = 2;
@@ -333,7 +336,7 @@ namespace FormularioExemplo
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel6.Controls.Add(this.txtbData);
             this.panel6.Controls.Add(this.label6);
-            this.panel6.Location = new System.Drawing.Point(358, 3);
+            this.panel6.Location = new System.Drawing.Point(357, 3);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(192, 77);
             this.panel6.TabIndex = 1;
@@ -367,7 +370,7 @@ namespace FormularioExemplo
             this.panel7.Controls.Add(this.label7);
             this.panel7.Location = new System.Drawing.Point(3, 3);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(349, 77);
+            this.panel7.Size = new System.Drawing.Size(348, 77);
             this.panel7.TabIndex = 0;
             // 
             // txtbNome
@@ -377,7 +380,7 @@ namespace FormularioExemplo
             this.txtbNome.BackColor = System.Drawing.SystemColors.Info;
             this.txtbNome.Location = new System.Drawing.Point(3, 42);
             this.txtbNome.Name = "txtbNome";
-            this.txtbNome.Size = new System.Drawing.Size(343, 27);
+            this.txtbNome.Size = new System.Drawing.Size(342, 27);
             this.txtbNome.TabIndex = 0;
             // 
             // label7
@@ -394,20 +397,21 @@ namespace FormularioExemplo
             this.panel8.Controls.Add(this.btnInserirPlanilha);
             this.panel8.Controls.Add(this.btnLimparTudo);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel8.Location = new System.Drawing.Point(822, 3);
+            this.panel8.Location = new System.Drawing.Point(821, 3);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(155, 77);
+            this.panel8.Size = new System.Drawing.Size(156, 77);
             this.panel8.TabIndex = 3;
             // 
             // btnLimparTudo
             // 
             this.btnLimparTudo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLimparTudo.Location = new System.Drawing.Point(11, 40);
+            this.btnLimparTudo.Location = new System.Drawing.Point(12, 40);
             this.btnLimparTudo.Name = "btnLimparTudo";
             this.btnLimparTudo.Size = new System.Drawing.Size(135, 29);
             this.btnLimparTudo.TabIndex = 1;
             this.btnLimparTudo.Text = "Limpar";
             this.btnLimparTudo.UseVisualStyleBackColor = true;
+            this.btnLimparTudo.Click += new System.EventHandler(this.btnLimparTudo_Click);
             // 
             // label8
             // 
@@ -426,7 +430,7 @@ namespace FormularioExemplo
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 64.15585F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.84415F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 266F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 161F));
             this.tableLayoutPanel2.Controls.Add(this.panel5, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel6, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel7, 0, 0);
@@ -477,6 +481,7 @@ namespace FormularioExemplo
             this.btnNovoLocal.TabIndex = 6;
             this.btnNovoLocal.Text = "...";
             this.btnNovoLocal.UseVisualStyleBackColor = true;
+            this.btnNovoLocal.Click += new System.EventHandler(this.btnNovoLocal_Click);
             // 
             // lblStatusPrograma
             // 
