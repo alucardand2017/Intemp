@@ -18,6 +18,12 @@ namespace FormularioExemplo
         {
             InitializeComponent();
         }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            var dataAtual = DateTime.Now;
+            txtbData.Text = dataAtual.ToString("g");
+            lblLocalAtual.Text = Properties.Settings.Default.repositorioDestino;
+        }
         private void btnInserirPlanilha_Click(object sender, EventArgs e)
         {
             InserirNaPlanilha();
@@ -38,5 +44,7 @@ namespace FormularioExemplo
         {
             SairPlanilha();
         }
+
+        
     }
 }

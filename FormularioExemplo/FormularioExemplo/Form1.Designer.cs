@@ -299,7 +299,7 @@ namespace FormularioExemplo
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel5.Controls.Add(this.nupIntemperismo);
             this.panel5.Controls.Add(this.label5);
-            this.panel5.Location = new System.Drawing.Point(555, 3);
+            this.panel5.Location = new System.Drawing.Point(552, 3);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(260, 77);
             this.panel5.TabIndex = 2;
@@ -336,9 +336,9 @@ namespace FormularioExemplo
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel6.Controls.Add(this.txtbData);
             this.panel6.Controls.Add(this.label6);
-            this.panel6.Location = new System.Drawing.Point(357, 3);
+            this.panel6.Location = new System.Drawing.Point(355, 3);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(192, 77);
+            this.panel6.Size = new System.Drawing.Size(191, 77);
             this.panel6.TabIndex = 1;
             // 
             // txtbData
@@ -346,10 +346,10 @@ namespace FormularioExemplo
             this.txtbData.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtbData.BackColor = System.Drawing.SystemColors.Info;
-            this.txtbData.Location = new System.Drawing.Point(80, 42);
+            this.txtbData.Location = new System.Drawing.Point(43, 42);
             this.txtbData.Mask = "00/00/0000 90:00";
             this.txtbData.Name = "txtbData";
-            this.txtbData.Size = new System.Drawing.Size(109, 27);
+            this.txtbData.Size = new System.Drawing.Size(145, 27);
             this.txtbData.TabIndex = 0;
             this.txtbData.ValidatingType = typeof(System.DateTime);
             // 
@@ -370,7 +370,7 @@ namespace FormularioExemplo
             this.panel7.Controls.Add(this.label7);
             this.panel7.Location = new System.Drawing.Point(3, 3);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(348, 77);
+            this.panel7.Size = new System.Drawing.Size(346, 77);
             this.panel7.TabIndex = 0;
             // 
             // txtbNome
@@ -380,7 +380,7 @@ namespace FormularioExemplo
             this.txtbNome.BackColor = System.Drawing.SystemColors.Info;
             this.txtbNome.Location = new System.Drawing.Point(3, 42);
             this.txtbNome.Name = "txtbNome";
-            this.txtbNome.Size = new System.Drawing.Size(342, 27);
+            this.txtbNome.Size = new System.Drawing.Size(340, 27);
             this.txtbNome.TabIndex = 0;
             // 
             // label7
@@ -397,15 +397,15 @@ namespace FormularioExemplo
             this.panel8.Controls.Add(this.btnInserirPlanilha);
             this.panel8.Controls.Add(this.btnLimparTudo);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel8.Location = new System.Drawing.Point(821, 3);
+            this.panel8.Location = new System.Drawing.Point(818, 3);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(156, 77);
+            this.panel8.Size = new System.Drawing.Size(159, 77);
             this.panel8.TabIndex = 3;
             // 
             // btnLimparTudo
             // 
             this.btnLimparTudo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLimparTudo.Location = new System.Drawing.Point(12, 40);
+            this.btnLimparTudo.Location = new System.Drawing.Point(15, 40);
             this.btnLimparTudo.Name = "btnLimparTudo";
             this.btnLimparTudo.Size = new System.Drawing.Size(135, 29);
             this.btnLimparTudo.TabIndex = 1;
@@ -430,7 +430,7 @@ namespace FormularioExemplo
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 64.15585F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.84415F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 266F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 161F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 164F));
             this.tableLayoutPanel2.Controls.Add(this.panel5, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel6, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel7, 0, 0);
@@ -529,6 +529,7 @@ namespace FormularioExemplo
             this.Controls.Add(this.ltvValores);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

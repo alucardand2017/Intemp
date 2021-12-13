@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\ANDERSON\\EstudoCSharp\\ExemploForms\\FormularioExemplo\\FormularioExemplo\\FormularioExemplo.csproj": {}
+    "A:\\ANDERSON\\EstudoCSharp\\ProgramaForms\\Intemperismo\\Intemp\\FormularioExemplo\\FormularioExemplo\\FormularioExemplo.csproj": {}
   },
   "projects": {
-    "A:\\ANDERSON\\EstudoCSharp\\ExemploForms\\FormularioExemplo\\FormularioExemplo\\FormularioExemplo.csproj": {
+    "A:\\ANDERSON\\EstudoCSharp\\ProgramaForms\\Intemperismo\\Intemp\\FormularioExemplo\\FormularioExemplo\\FormularioExemplo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\ANDERSON\\EstudoCSharp\\ExemploForms\\FormularioExemplo\\FormularioExemplo\\FormularioExemplo.csproj",
+        "projectUniqueName": "A:\\ANDERSON\\EstudoCSharp\\ProgramaForms\\Intemperismo\\Intemp\\FormularioExemplo\\FormularioExemplo\\FormularioExemplo.csproj",
         "projectName": "FormularioExemplo",
-        "projectPath": "A:\\ANDERSON\\EstudoCSharp\\ExemploForms\\FormularioExemplo\\FormularioExemplo\\FormularioExemplo.csproj",
+        "projectPath": "A:\\ANDERSON\\EstudoCSharp\\ProgramaForms\\Intemperismo\\Intemp\\FormularioExemplo\\FormularioExemplo\\FormularioExemplo.csproj",
         "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
-        "outputPath": "A:\\ANDERSON\\EstudoCSharp\\ExemploForms\\FormularioExemplo\\FormularioExemplo\\obj\\",
+        "outputPath": "A:\\ANDERSON\\EstudoCSharp\\ProgramaForms\\Intemperismo\\Intemp\\FormularioExemplo\\FormularioExemplo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -61,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

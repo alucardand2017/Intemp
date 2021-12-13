@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace FormularioExemplo
 {
@@ -10,7 +11,16 @@ namespace FormularioExemplo
     {
         private void InserirNaPlanilha()
         {
-            throw new NotImplementedException();
+            if(txtbNome.Text == string.Empty)
+            {
+                MessageBox.Show("Insira um argumento válido no campo nome!", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            if (!txtbData.MaskCompleted)
+            {
+                MessageBox.Show("Insira uma Data válida!", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
         }
     }
 }
